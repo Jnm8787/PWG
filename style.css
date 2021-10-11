@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    background-color: #6b9e82;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h2.card-header{
+    background-color: #5d8572;
+}
+
+div.card-body{
+    background-color: #a4d0a4;
+}
+/* Text area formatting */
+#password {
+    background-color: #fafafa;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 70px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px dashed #c0c7cf;
+	border-radius: 8px;
+	resize: none;
+	overflow: hidden;
+	font-size: larger;
+}
+
+
+/* Button Styling */
+#generate{
+    color: #3f3f3f;
+    background-color: #5d8572;
+}
+
+#generate:hover{
+	color: #ffffff;
+    background-color: #6b9e82;
+}
